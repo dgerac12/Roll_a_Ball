@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - ObstMove2
+    - ObstacleMove1
     - PlayerController
     - Rotator
     UnityEditor.TestRunner.dll:
@@ -62,6 +64,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9388}
     - Class: 114
       Script: {instanceID: 9828}
+    - Class: 114
+      Script: {instanceID: 9920}
+    - Class: 114
+      Script: {instanceID: 10206}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -579,7 +585,7 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: f47f79bb38c6289b98543304a7e6532e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -601,6 +607,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObstMove2
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -675,6 +687,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObstacleMove1
+  - hash:
+      serializedVersion: 2
       Hash: ee0cef6caaac8ae485bfa82f000f0f7b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -736,4 +754,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MiniGame.unity
-  playerPath: M:/Documents/Unity Projects/Roll_a_Ball/Roll a Ball.exe
+  playerPath: M:/Documents/Unity Projects/Roll_a_Ball_Challenge/Roll a Ball.exe
